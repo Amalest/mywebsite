@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Bootstrap Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+<body data-bs-theme="light">
+
+  <!-- Hero Section -->
+  <section class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Welcome to My Website</h1>
+      <p class="lead">A simple, clean, and responsive web page</p>
+    </div>
+  </section>
+
+ <!-- About Me Section -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">About Me</h2>
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-5 text-center">
+        <img src="/images/image1.jpg" 
+             class="img-fluid rounded shadow-sm" 
+             alt="About Me Image" 
+             style="max-width: 85%; height: auto;">
+      </div>
+      <div class="col-md-7">
+        <p class="text-muted fw-semibold fs-5" style="text-align: justify;">
+          Hello! I'm a creative and curious developer with a passion for building simple, beautiful, and functional websites. 
+          This project is a reflection of my journey in learning frontend development using HTML and Bootstrap. 
+          I enjoy solving problems, bringing ideas to life, and continuously learning new things in tech. 
+          Whether it's designing clean layouts or writing clean code, I love every part of the process. 
+          Thank you for visiting my site. I hope you find it inspiring!
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Blog Section -->
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Blog Posts</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Why Tech is for Everyone</h5>
+            <p class="card-text">A personal story about how I began my journey in software engineering and why tech welcomes anyone willing to learn.</p>
+            <a href="https://medium.com/@habibaduale8/why-tech-is-for-everyone-my-journey-as-a-beginner-in-software-engineering-c20a28a11a63" class="btn btn-primary" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Why HTML Still Matters</h5>
+            <p class="card-text">Despite new technologies, HTML remains the backbone of all web development. Here's why it's still crucial.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Responsive Design Tips</h5>
+            <p class="card-text">Discover easy techniques to ensure your site looks great on all devices using only Bootstrap.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Habiba Duale">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="habibaduale8@gmail.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Write your message here..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+ <!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <p class="mb-2">© 2025 Amal Hassan</p>
+
+    <div class="d-flex justify-content-center align-items-center flex-wrap gap-4">
+      <a href="https://www.facebook.com/xabibty.amaal.dualle?mibextid=wwXIfr&mibextid=wwXIfr" class="text-white fs-4" target="_blank"><i class="bi bi-facebook"></i></a>
+      <a href="https://twitter.com/yourusername" class="text-white fs-4" target="_blank"><i class="bi bi-twitter"></i></a>
+      <a href="https://www.instagram.com/am_al.hassan?igsh=MXBpaXNoNnpzYTBveA==" class="text-white fs-4" target="_blank"><i class="bi bi-instagram"></i></a>
+      <a href="https://linkedin.com/in/yourusername" class="text-white fs-4" target="_blank"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS Bundle (optional, for components like modal if needed) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
